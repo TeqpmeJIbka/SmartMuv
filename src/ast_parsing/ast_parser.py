@@ -99,7 +99,7 @@ def check_if_stmt(statement, definition, functions, variables, mappings):
     return functions, variables, mappings
 
 
-def parse_ast(children, cont_name):
+def parse_ast(children):
     all_contracts_details = {}
     variables = []
     state_vars = []
